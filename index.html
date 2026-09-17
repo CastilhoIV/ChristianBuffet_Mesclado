@@ -1,0 +1,1259 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <!-- Define a codificação de caracteres para aceitar acentos e caracteres especiais -->
+  <meta charset="utf-8">
+
+  <!-- Faz o site se adaptar corretamente a celulares, tablets e computadores -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Descrição exibida por mecanismos de busca -->
+  <meta
+    name="description"
+    content="Christian Buffet & Eventos — buffet para casamentos, eventos corporativos, formaturas e celebrações em Aimorés (MG) e região."
+  >
+
+  <!-- Título exibido na aba do navegador -->
+  <title>Christian Buffet & Eventos | Buffet e Eventos</title>
+
+  <!--
+    Importa as fontes utilizadas no projeto:
+    Cormorant Garamond: utilizada principalmente nos títulos
+    Inter: utilizada nos textos e elementos de navegação
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Arquivo CSS principal do site -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- =========================================================
+       CABEÇALHO / MENU PRINCIPAL
+       ========================================================= -->
+
+  <header class="site-header" id="top">
+
+    <div class="container nav-wrap">
+
+      <!--
+        Logo/nome da empresa
+        O link #inicio faz o usuário voltar para o começo da página
+      -->
+      <a
+        class="brand"
+        href="#inicio"
+        aria-label="Christian Buffet & Eventos - Início"
+      >
+
+        <!-- Marca visual simplificada da empresa -->
+        <span class="brand-logo-wrap">
+            <img class="brand-logo" src="assets/logo.png" alt="Christian Buffet & Eventos">
+          </span>
+
+        <span>
+
+          <!-- Nome principal -->
+          <strong>Christian Buffet & Eventos</strong>
+
+          <!-- Slogan -->
+          <small>Transformando sonhos em gastronomia</small>
+
+        </span>
+      </a>
+
+
+      <!--
+        Botão que abre o menu no celular
+        O JavaScript controla a abertura e fechamento desse menu
+      -->
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="main-nav"
+        aria-label="Abrir menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+
+      <!--
+        Menu de navegação
+        Cada link utiliza um ID de uma seção da página
+      -->
+      <nav class="main-nav" id="main-nav">
+
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre Nós</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#orcamento">Orçamento</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+
+        <!--
+          Link direto para o WhatsApp
+          Para trocar o número, altere o número presente na URL
+        -->
+        <a
+          class="nav-whatsapp"
+          href="https://wa.me/553398154856"
+          target="_blank"
+          rel="noreferrer"
+        >
+          WhatsApp
+        </a>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+  <!-- =========================================================
+       CONTEÚDO PRINCIPAL
+       ========================================================= -->
+
+  <main>
+
+
+    <!-- =======================================================
+         SEÇÃO HERO / BANNER PRINCIPAL
+         ======================================================= -->
+
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+
+      <!--
+        Camada escura colocada sobre a imagem de fundo
+        Ela serve para melhorar a leitura do texto
+      -->
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content">
+
+        <!-- Pequeno texto acima do título -->
+        <span class="eyebrow">
+          BUFFET COMPLETO • AIMORÉS (MG) E REGIÃO
+        </span>
+
+
+        <!--
+          Título principal do site
+          O <br> força uma quebra de linha
+        -->
+        <h1 id="hero-title">
+          Transformando<br>
+          sonhos em<br>
+          gastronomia
+        </h1>
+
+
+        <!-- Texto de apresentação -->
+        <p>
+          Buffet completo para casamentos, corporativos,
+          formaturas e eventos especiais, com cuidado em cada detalhe.
+        </p>
+
+
+        <!-- Botões principais do banner -->
+        <div class="hero-actions">
+
+          <!-- Botão que leva diretamente pro WhatsApp -->
+          <a
+            class="btn btn-gold"
+            href="https://wa.me/553398154856"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Fale conosco <span>↗</span>
+          </a>
+
+
+          <!-- Botão que leva para a seção de serviços -->
+          <a
+            class="btn btn-outline"
+            href="#servicos"
+          >
+            Nossos serviços <span>→</span>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- =======================================================
+         DIFERENCIAIS
+         ======================================================= -->
+
+    <section
+      class="highlights"
+      aria-label="Nossos diferenciais"
+    >
+
+      <div class="container highlight-grid">
+
+
+        <!-- Diferencial 1 -->
+        <article class="highlight-item">
+
+          <span class="icon"><img src="assets/atendimento.png" alt="" aria-hidden="true"></span>
+
+          <div>
+
+            <h3>Atendimento Personalizado</h3>
+
+            <p>
+              Do seu jeito, do início ao fim do evento.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <!-- Diferencial 2 -->
+        <article class="highlight-item">
+
+          <span class="icon"><img src="assets/gastronomia.png" alt="" aria-hidden="true"></span>
+
+          <div>
+
+            <h3>Gastronomia de Qualidade</h3>
+
+            <p>
+              Cardápios variados com ingredientes selecionados.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <!-- Diferencial 3 -->
+        <article class="highlight-item">
+
+          <span class="icon"><img src="assets/estrutura.png" alt="" aria-hidden="true"></span>
+
+          <div>
+
+            <h3>Estrutura Completa</h3>
+
+            <p>
+              Equipe treinada e estrutura para todos os tipos de eventos.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <!-- Diferencial 4 -->
+        <article class="highlight-item">
+
+          <span class="icon"><img src="assets/paixao.png" alt="" aria-hidden="true"></span>
+
+          <div>
+
+            <h3>Paixão pelo que fazemos</h3>
+
+            <p>
+              Cuidamos de cada detalhe para momentos inesquecíveis.
+            </p>
+
+          </div>
+
+        </article>
+
+      </div>
+    </section>
+
+
+
+    <!-- =======================================================
+         SERVIÇOS
+         ======================================================= -->
+
+    <section
+      class="section section-light"
+      id="servicos"
+    >
+
+      <div class="container">
+
+
+        <!-- Título da seção -->
+        <div class="section-heading centered">
+
+          <span class="eyebrow gold-text">
+            NOSSOS SERVIÇOS
+          </span>
+
+          <h2>
+            Soluções para cada tipo de evento
+          </h2>
+
+          <!-- Ornamento decorativo -->
+          <span class="ornament">◆</span>
+
+        </div>
+
+
+
+        <!-- Grade de serviços -->
+        <div class="service-grid">
+
+
+          <!-- Serviço: Casamentos -->
+          <article class="service-card">
+
+            <!--
+              A classe photo-wedding controla a imagem usada no CSS
+              Pra trocar a imagem, procura essa classe no styles.css
+            -->
+            <div class="service-photo photo-wedding">
+  <img src="assets/casamento-foto.jpg" alt="Casamentos" loading="lazy">
+  <span>CASAMENTOS</span>
+  
+</div>
+
+            <div class="service-copy">
+
+              <h3>Casamentos</h3>
+
+              <p>
+                Buffet completo para o seu grande dia,
+                com cardápios sofisticados e personalizados.
+              </p>
+
+              <a href="#orcamento">
+                Solicitar orçamento →
+              </a>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- Serviço: Corporativos -->
+          <article class="service-card">
+
+            <div class="service-photo photo-corporate">
+  <img src="assets/eventos-corporativos.jpg" alt="Corporativos" loading="lazy">
+  <span>CORPORATIVOS</span>
+</div>
+
+            <div class="service-copy">
+
+              <h3>Corporativos</h3>
+
+              <p>
+                Soluções práticas e elegantes para empresas,
+                workshops e confraternizações.
+              </p>
+
+              <a href="#orcamento">
+                Solicitar orçamento →
+              </a>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- Serviço: Formaturas -->
+          <article class="service-card">
+
+            <div class="service-photo photo-graduation">
+  <img src="assets/formatura.jpg" alt="Formaturas" loading="lazy">
+  <span>FORMATURAS</span>
+</div>
+
+            <div class="service-copy">
+
+              <h3>Formaturas</h3>
+
+              <p>
+                Celebre conquistas com um buffet especial
+                para esse momento único.
+              </p>
+
+              <a href="#orcamento">
+                Solicitar orçamento →
+              </a>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- Serviço: Eventos especiais -->
+          <article class="service-card">
+
+            <div class="service-photo photo-special">
+  <img src="assets/eventos.jpg" alt="Eventos Especiais" loading="lazy">
+  <span>EVENTOS ESPECIAIS</span>
+</div>
+
+            <div class="service-copy">
+
+              <h3>Eventos Especiais</h3>
+
+              <p>
+                Aniversários, bodas, batizados e muito mais
+                com todo o sabor e carinho.
+              </p>
+
+              <a href="#orcamento">
+                Solicitar orçamento →
+              </a>
+
+            </div>
+
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- =======================================================
+         SIMULADOR DE ORÇAMENTO
+         ======================================================= -->
+
+    <section
+      class="section budget-section"
+      id="orcamento"
+    >
+
+      <div class="container budget-wrap">
+
+
+        <!-- Parte explicativa -->
+        <div class="budget-intro">
+
+          <span class="eyebrow gold-text">
+            SIMULE SEU ORÇAMENTO
+          </span>
+
+          <h2>
+            Monte seu evento<br>
+            em poucos passos
+          </h2>
+
+          <p>
+            Faça uma simulação personalizada
+            e receba uma estimativa de investimento.
+          </p>
+
+
+          <!-- Passos do simulador -->
+          <div class="steps">
+
+            <div>
+
+              <b>01</b>
+
+              <span>
+                Escolha o tipo<br>
+                de evento
+              </span>
+
+            </div>
+
+
+            <div>
+
+              <b>02</b>
+
+              <span>
+                Informe o número<br>
+                de convidados
+              </span>
+
+            </div>
+
+
+            <div>
+
+              <b>03</b>
+
+              <span>
+                Veja a estimativa e<br>
+                fale com a gente
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <!--
+          Formulário do simulador.
+
+          O JavaScript lê os valores inseridos aqui e calcula
+          uma estimativa de preço
+        -->
+        <form
+          class="budget-form"
+          id="budgetForm"
+        >
+
+
+          <!-- Tipo de evento -->
+          <label>
+
+            Tipo de evento
+
+            <select
+              id="eventType"
+              required
+            >
+
+              <option value="">
+                Selecione
+              </option>
+
+              <option>
+                Casamento
+              </option>
+
+              <option>
+                Corporativo
+              </option>
+
+              <option>
+                Formatura
+              </option>
+
+              <option>
+                Aniversário
+              </option>
+
+              <option>
+                Evento especial
+              </option>
+
+            </select>
+
+          </label>
+
+
+
+          <!-- Quantidade de convidados -->
+          <label>
+
+            Nº de convidados
+
+            <input
+              id="guests"
+              type="number"
+              min="1"
+              max="5000"
+              placeholder="Ex: 100"
+              required
+            >
+
+          </label>
+
+
+
+          <!-- Estilo do serviço -->
+          <label>
+
+            Estilo do serviço
+
+            <select
+              id="serviceStyle"
+              required
+            >
+
+              <option value="">
+                Selecione
+              </option>
+
+              <option>
+                Buffet completo
+              </option>
+
+              <option>
+                Coquetel
+              </option>
+
+              <option>
+                Jantar empratado
+              </option>
+
+              <option>
+                Café e brunch
+              </option>
+
+            </select>
+
+          </label>
+
+
+
+          <!-- Data do evento -->
+          <label>
+
+            Data do evento
+
+            <input
+              id="eventDate"
+              type="date"
+              required
+            >
+
+          </label>
+
+
+
+          <!--
+            Botão que envia o formulário
+            O JavaScript intercepta esse envio para calcular o orçamento
+          -->
+          <button
+            class="btn btn-gold full"
+            type="submit"
+          >
+            Calcular orçamento <span>→</span>
+          </button>
+
+
+          <!-- Aviso sobre a estimativa -->
+          <p class="form-note">
+            * Orçamento estimado. Valores finais serão alinhados em nossa proposta.
+          </p>
+
+
+          <!--
+            Área onde o JavaScript exibirá o resultado do cálculo
+          -->
+          <div
+            class="estimate"
+            id="estimate"
+            aria-live="polite"
+          ></div>
+
+        </form>
+
+      </div>
+    </section>
+
+
+
+    <!-- =======================================================
+         SOBRE NÓS
+         ======================================================= -->
+
+    <section
+      class="section section-light"
+      id="sobre"
+    >
+
+      <div class="container about-grid">
+
+
+        <!--
+          Imagem da seção "Sobre nós"
+
+          A imagem é controlada pelo CSS através da classe
+          .about-photo
+        -->
+        <div
+          class="about-photo"
+          role="img"
+          aria-label="Mesa elegante preparada para um evento"
+        ></div>
+
+
+
+        <!-- Texto da seção -->
+        <div class="about-copy">
+
+          <span class="eyebrow gold-text">
+            SOBRE NÓS
+          </span>
+
+          <h2>
+            Mais que um buffet,<br>
+            criamos experiências
+          </h2>
+
+          <span class="ornament left">
+            ◆
+          </span>
+
+
+          <p>
+            Com anos de experiência no mercado,
+            o Christian Buffet & Eventos nasceu do amor pela
+            gastronomia e pelo prazer de servir bem.
+          </p>
+
+
+          <p>
+            Nosso compromisso é transformar cada evento
+            em um momento inesquecível, cuidando de todos
+            os detalhes para que você aproveite ao máximo.
+          </p>
+
+
+          <!-- Botão pra contato -->
+          <a
+            class="btn btn-dark"
+            href="#contato"
+          >
+            Saiba mais sobre nós <span>→</span>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- =======================================================
+         GALERIA
+         ======================================================= -->
+
+    <section
+      class="section gallery-section"
+      id="galeria"
+    >
+
+      <div class="container">
+
+
+        <!-- Título -->
+        <div class="section-heading left-heading">
+
+          <span class="eyebrow gold-text">
+            GALERIA
+          </span>
+
+          <h2>
+            Momentos que falam por si
+          </h2>
+
+        </div>
+
+
+
+        <!-- Grade de imagens -->
+        <div class="gallery-grid">
+
+
+          <!--
+            Cada item possui uma classe diferente (g1, g2, etc...)
+            Essas classes definem as imagens no CSS
+
+            data-caption:
+            texto exibido quando a imagem for aberta
+          -->
+
+
+          <!-- Imagem 1 -->
+          <button
+            class="gallery-item g1"
+            data-caption="Mesa de casamento"
+            aria-label="Abrir foto: mesa de casamento"
+          ></button>
+
+
+          <!-- Imagem 2 -->
+          <button
+            class="gallery-item g2"
+            data-caption="Doces e mesa de festa"
+            aria-label="Abrir foto: doces e mesa de festa"
+          ></button>
+
+
+          <!-- Imagem 3 -->
+          <button
+            class="gallery-item g3"
+            data-caption="Buffet servido"
+            aria-label="Abrir foto: buffet servido"
+          ></button>
+
+
+          <!-- Imagem 4 -->
+          <button
+            class="gallery-item g4"
+            data-caption="Arranjo floral"
+            aria-label="Abrir foto: arranjo floral"
+          ></button>
+
+
+          <!-- Imagem 5 -->
+          <button
+            class="gallery-item g5"
+            data-caption="Recepção elegante"
+            aria-label="Abrir foto: recepção elegante"
+          ></button>
+
+        </div>
+
+
+
+        <!-- Botão para visualizar mais fotos -->
+        <div class="center-action">
+
+          <a
+            class="btn btn-outline light-btn"
+            href="https://www.instagram.com/christianbuffete?stkn=MWU1czByZDVoejFlcQ==" target="_blank" rel="noreferrer"
+          >
+            Ver mais fotos <span>→</span>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- =======================================================
+         DEPOIMENTOS
+         ======================================================= -->
+
+    <section
+      class="section testimonials section-light"
+      id="depoimentos"
+    >
+
+      <div class="container">
+
+
+        <!-- Cabeçalho da seção -->
+        <div class="section-heading centered">
+
+          <span class="eyebrow gold-text">
+            DEPOIMENTOS
+          </span>
+
+          <h2>
+            O que nossos clientes dizem
+          </h2>
+
+          <span class="ornament">
+            ◆
+          </span>
+
+        </div>
+
+
+
+        <!-- Área do carrossel -->
+        <div class="testimonial-wrap">
+
+
+          <!-- Botão para voltar -->
+          <button
+            class="slider-btn prev"
+            aria-label="Depoimento anterior"
+          >
+            ‹
+          </button>
+
+
+          <!--
+            Área que contém todos os depoimentos
+
+            O JavaScript controla qual deles aparece no celular
+          -->
+          <div
+            class="testimonial-track"
+            id="testimonialTrack"
+          >
+
+
+            <!-- Depoimento 1 -->
+            <article class="testimonial-card">
+
+              <span class="quote">
+                “
+              </span>
+
+              <p>
+                “Tudo perfeito! Comida incrível, equipe atenciosa
+                e muitos elogios dos convidados.
+                Superaram todas as nossas expectativas!”
+              </p>
+
+              <strong>
+                Juliana & Felipe
+              </strong>
+
+              <small>
+                Casamento
+              </small>
+
+            </article>
+
+
+
+            <!-- Depoimento 2 -->
+            <article class="testimonial-card">
+
+              <span class="quote">
+                “
+              </span>
+
+              <p>
+                “Profissionais incríveis!
+                A organização e o cuidado em cada detalhe
+                fizeram toda a diferença no nosso evento corporativo.”
+              </p>
+
+              <strong>
+                Marcos Vinícius
+              </strong>
+
+              <small>
+                Evento Corporativo
+              </small>
+
+            </article>
+
+
+
+            <!-- Depoimento 3 -->
+            <article class="testimonial-card">
+
+              <span class="quote">
+                “
+              </span>
+
+              <p>
+                “Buffet impecável!
+                Comida deliciosa e apresentação linda.
+                Recomendo de olhos fechados!”
+              </p>
+
+              <strong>
+                Patrícia Silva
+              </strong>
+
+              <small>
+                Aniversário
+              </small>
+
+            </article>
+
+          </div>
+
+
+          <!-- Botão para avançar -->
+          <button
+            class="slider-btn next"
+            aria-label="Próximo depoimento"
+          >
+            ›
+          </button>
+
+        </div>
+
+
+
+        <!--
+          Indicadores do carrossel
+          Cada botão representa um depoimento
+          O JavaScript altera qual indicador fica ativo
+        -->
+        <div
+          class="dots"
+          id="dots"
+        >
+
+          <button
+            class="active"
+            aria-label="Depoimento 1"
+          ></button>
+
+          <button
+            aria-label="Depoimento 2"
+          ></button>
+
+          <button
+            aria-label="Depoimento 3"
+          ></button>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+
+  <!-- =========================================================
+       RODAPÉ
+       ========================================================= -->
+
+  <footer
+    class="footer"
+    id="contato"
+  >
+
+    <div class="container footer-grid">
+
+
+      <!-- =====================================================
+           IDENTIDADE DA EMPRESA
+           ===================================================== -->
+
+      <div class="footer-brand">
+
+
+        <!-- Reaproveita a estrutura da marca do cabeçalho -->
+        <div class="brand footer-brand-mark">
+
+          <span class="brand-logo-wrap">
+            <img class="brand-logo" src="assets/logo.png" alt="Christian Buffet & Eventos">
+          </span>
+
+          <span>
+
+            <strong>
+              Christian Buffet & Eventos
+            </strong>
+
+            <small>
+              Transformando sonhos em gastronomia
+            </small>
+
+          </span>
+
+        </div>
+
+
+
+        <!-- Redes sociais -->
+        <div class="socials">
+
+          <!--
+            Troca os href="#" pelos links reais das redes sociais
+          -->
+          <a
+            href="https://www.instagram.com/christianbuffete?stkn=MWU1czByZDVoejFlcQ=="
+            aria-label="Instagram"
+          >
+            ◎
+          </a>
+
+          <a
+            href="https://www.facebook.com/share/1HtFetMRzy/"
+            aria-label="Facebook"
+          >
+            f
+          </a>
+
+          <a
+            href="https://wa.me/553398154856"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="WhatsApp"
+          >
+            ◔
+          </a>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- =====================================================
+           LINKS DE NAVEGAÇÃO
+           ===================================================== -->
+
+      <div>
+
+        <h3>
+          Navegação
+        </h3>
+
+        <div class="footer-links">
+
+          <a href="#inicio">Início</a>
+          <a href="#galeria">Galeria</a>
+
+          <a href="#sobre">Sobre Nós</a>
+          <a href="#depoimentos">Depoimentos</a>
+
+          <a href="#servicos">Serviços</a>
+          <a href="#contato">Contato</a>
+          <a href="#orcamento">Orçamento</a>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- =====================================================
+           INFORMAÇÕES DE CONTATO
+           ===================================================== -->
+
+      <div>
+
+        <h3>
+          Contato
+        </h3>
+
+        <ul class="contact-list">
+            
+
+          <li>
+            ⌕
+            <span>
+              (33) 99815-4856
+            </span>
+          </li>
+
+          <li>
+            ⌖
+            <span>
+              Aimorés (MG) e Região
+            </span>
+          </li>
+
+          <li>
+            ✉
+            <span>
+              contato@christianbuffet.com.br
+            </span>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+      <!-- =====================================================
+           HORÁRIO DE ATENDIMENTO
+           ===================================================== -->
+
+      <div>
+
+        <h3>
+          Atendimento
+        </h3>
+
+        <p class="hours">
+
+          Segunda a Sábado<br>
+          08h às 18h
+
+        </p>
+
+
+        <!-- Botão final pro WhatsApp -->
+        <a
+          class="btn btn-outline gold-outline full"
+          href="https://wa.me/553398154856"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Fale conosco no WhatsApp
+        </a>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         COPYRIGHT
+         ===================================================== -->
+
+    <div class="container copyright">
+
+      <span>
+        © 2026 Christian Buffet & Eventos.
+        Todos os direitos reservados.
+      </span>
+
+      <span>
+        Desenvolvido com ♥
+      </span>
+
+    </div>
+
+  </footer>
+
+
+
+  <!-- =========================================================
+       MODAL DA GALERIA
+       ========================================================= -->
+
+  <!--
+    Essa janela aparece quando o usuário clica em uma foto da galeria
+
+    O JavaScript abre o modal, coloca a imagem selecionada, mostra a legenda e fecha quando necessário
+  -->
+  <div
+    class="modal"
+    id="imageModal"
+    aria-hidden="true"
+    role="dialog"
+    aria-label="Visualização da galeria"
+  >
+
+    <!-- Botão para fechar o modal -->
+    <button
+      class="modal-close"
+      aria-label="Fechar"
+    >
+      ×
+    </button>
+
+
+    <!-- Área onde a imagem ampliada será exibida -->
+    <div
+      class="modal-image"
+      id="modalImage"
+    ></div>
+
+
+    <!-- Legenda da imagem -->
+    <p id="modalCaption"></p>
+
+  </div>
+
+
+
+  <!--
+    Arquivo JavaScript principal que controla menu mobile, simulador de orçamento, modal da galeria e carrossel de depoimentos
+  -->
+  <script src="scripts.js"></script>
+
+</body>
+</html>
